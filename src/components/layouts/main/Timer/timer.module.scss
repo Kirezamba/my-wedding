@@ -1,0 +1,25 @@
+.timer {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  font-family: "Caveat", cursive;
+  color: #fff;
+  small {
+    font-size: 1.3rem;
+  }
+}
+.timerWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  h4 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Caveat", cursive;
+  }
+}
+.number {
+  font-size: 3rem;
+}
