@@ -1,11 +1,11 @@
+$color: #31553f;
 .timer {
   display: flex;
   font-size: 2rem;
   justify-content: space-between;
   text-align: center;
-  color: #fff;
   font-family: "Caveat", cursive;
-  color: #fff;
+  color: $color;
   small {
     font-size: 1.3rem;
   }
