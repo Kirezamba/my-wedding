@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  color: rgb(203, 211, 191);
+  color: #cbd3bf;
 }
 .mainWrapper {
   width: 100%;
@@ -29,16 +29,16 @@
 .text {
   font-family: "Caveat", cursive;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: #fff;
-  line-height: 2.5rem;
+  line-height: 1.5rem;
 }
 .card {
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   border-radius: 10px;
   max-width: 400px;
-  height: 650px;
+  height: 100%;
   background-image: url(../../../assets/noisebg.png);
   color: #fff;
   font-size: 1.5rem;
@@ -47,13 +47,15 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 5px 5px 15px #000;
+  // margin-bottom: 30px;
   h2 {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-family: "Caveat", cursive;
     font-size: 2rem;
     color: #fff;
   }
 }
+
 .footer {
   width: 100%;
   font-family: "Caveat", cursive;
@@ -64,5 +66,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
