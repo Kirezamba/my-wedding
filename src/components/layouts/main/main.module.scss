@@ -1,7 +1,15 @@
+.mainWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .main {
   padding: 30px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url(../../../assets/flowers.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -13,13 +21,27 @@
   justify-content: space-between;
   color: #cbd3bf;
 }
-.mainWrapper {
-  width: 100%;
-  height: 100%;
+.card {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 100vh;
+  background-image: url(../../../assets/noisebg.png);
+  color: #fff;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 15px #000;
+  h2 {
+    margin-top: 1.5rem;
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+    color: #fff;
+  }
 }
 .nopadding {
   padding-left: 0 !important;
@@ -32,28 +54,6 @@
   font-size: 1.4rem;
   color: #fff;
   line-height: 1.5rem;
-}
-.card {
-  padding: 1rem;
-  margin-top: 0rem;
-  border-radius: 10px;
-  max-width: 400px;
-  height: 100vh;
-  background-image: url(../../../assets/noisebg.png);
-  color: #fff;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 5px 5px 15px #000;
-  margin-bottom: 20px;
-  h2 {
-    margin-top: 1.5rem;
-    font-family: "Caveat", cursive;
-    font-size: 2rem;
-    color: #fff;
-  }
 }
 
 .footer {
