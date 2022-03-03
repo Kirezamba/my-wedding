@@ -68,7 +68,7 @@ function App() {
   const logins = users.map((user) => user.login);
 
   return (
-    <div className={`container ${s.nopadding}`}>
+    <div className={s.container}>
       <Route exact path="/main" render={() => <Main user={user} timer={timer} />} />
       <Route
         exact
