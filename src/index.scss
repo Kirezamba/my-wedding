@@ -77,4 +77,6 @@ a {
 body {
   background-color: #e0f3ff;
   overflow: hidden;
+  min-height: 100vh;
+  min-height: -webkit-fill-availaible;
 }
