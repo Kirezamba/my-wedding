@@ -60,7 +60,7 @@ function App() {
     { login: "Whale", name: "Никитос" },
     { login: "Zabolotniy", name: "Никитос" },
     { login: "Sergey_Lera", name: "Лера & Сережа" },
-    { login: "Diman_Anna", name: "Аня & Дима" },
+    { login: "Diman_Anna", name: "Аня & Диман" },
     { login: "Artem_Tanya", name: "Таня & Артем" },
     { login: "Arkasha_Nazeli", name: "Назели & Аркаша" },
     { login: "Max_Sasha", name: "Саша & Максим" },
