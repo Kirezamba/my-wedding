@@ -78,8 +78,7 @@ body {
   background-color: #e0f3ff;
   overflow: hidden;
   min-height: 100vh;
-  // max-width: 100%;
-  min-height: -webkit-fill-availaible;
+  min-height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
 }
