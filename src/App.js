@@ -2,7 +2,6 @@ import React from "react";
 import LoginForm from "./components/layouts/login/LoginForm";
 import Main from "./components/layouts/main/Main";
 import { Route, useHistory } from "react-router-dom";
-import s from "./app.module.scss";
 import { useInterval } from "./utils/useInterval";
 import { useFormik } from "formik";
 
