@@ -63,6 +63,7 @@ function App() {
     { login: "Artem_Tanya", name: "Таня & Артем" },
     { login: "Arkasha_Nazeli", name: "Назели & Аркаша" },
     { login: "Max_Sasha", name: "Саша & Максим" },
+    { login: "Vanya", name: "Ваня" },
   ];
   const logins = users.map((user) => user.login);
 
