@@ -56,6 +56,7 @@ function App() {
   const users = [
     { login: "Kravchenki", name: "Катя & Дима" },
     { login: "Andrey_Liza", name: "Лиза & Андрей" },
+    { login: "Misha_Julia", name: "Юля & Миша" },
     { login: "Whale", name: "Никитос" },
     { login: "Zabolotniy", name: "Никитос" },
     { login: "Sergey_Lera", name: "Лера & Сережа" },
